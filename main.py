@@ -1,4 +1,9 @@
+from chama_aqui import soma
 a = 1
 b = 2
-if (a + b) == 3:
-    print('hello world')
+c = 3
+adicao = soma(a, b, c)
+if adicao == 6:
+    print('deu certo')
+else:
+    print('nao deu 3')
